@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include\GL">
+      <UniqueIdentifier>{8d543b28-2e73-490a-8cae-906c5084a4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\gl3w.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sb7.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sb7color.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sb7ktx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sb7object.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sb7shader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sb7textoverlay.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\object.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sb6mfile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sb7.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sb7color.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sb7ext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sb7ktx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sb7textoverlay.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vmath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\gl3w.h">
+      <Filter>include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glcorearb.h">
+      <Filter>include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glext.h">
+      <Filter>include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\glxext.h">
+      <Filter>include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GL\wglext.h">
+      <Filter>include\GL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

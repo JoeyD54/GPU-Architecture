@@ -1,0 +1,15 @@
+//----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+option optimize_for = LITE_RUNTIME;
+
+message InvBindData_proto
+{
+	optional uint32 numMat = 1;
+	repeated float poData = 2;
+}
+
+// -- End of File ---

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{791d978a-3e57-40af-85f8-61d3da9d462b}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)colorRender.fs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)colorRender.vs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)colorSingleRender.fs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)colorSingleRender.vs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)computeMixer.cs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)computeTest.cs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)computeWorldMatrix.cs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)constColorRender.fs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)constColorRender.vs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)nullRender.fs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)nullRender.vs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)render.fs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)render.vs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)skinTextureRender.fs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)skinTextureRender.vs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)spriteRender.fs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)spriteRender.vs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)texturePointLightDiff.fs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)texturePointLightDiff.vs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)textureRender.fs.glsl" />
+    <None Include="$(MSBuildThisFileDirectory)textureRender.vs.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ShaderLayout.h" />
+  </ItemGroup>
+</Project>

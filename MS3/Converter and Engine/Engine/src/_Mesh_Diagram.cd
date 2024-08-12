@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MeshNodeMan">
+    <Position X="1" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAAAAAAAABhAAAAABMAEAgAAAAAAAIAAA=</HashCode>
+      <FileName>MeshNodeMan.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poNodeCompare" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MeshNode">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="~MeshNode" Hidden="true" />
+      <Method Name="MeshNode" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="privClear" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAACAAACAABhAAAAAAAgAAAAAAAQAAAAABgCAAABAA=</HashCode>
+      <FileName>MeshNode.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poMesh" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mesh">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Mesh::Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mesh.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAIAAAIEAQAAAgACAAAAAoAAEQgAAAQBgQAAEBAA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CubeMesh" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAgAAAAA=</HashCode>
+      <FileName>CubeMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NullMesh" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAEACA=</HashCode>
+      <FileName>NullMesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManBase">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CIAAAIAFAAACgCgAAgAAIgQAUAAIAgAAAAAgAAAAAAA=</HashCode>
+      <FileName>C:\code\keenan2022fall_gam575\instructor\lectures\Week_09\w9(7) - ChickenBot - TimerController\Manager\include\ManBase.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ListBase" Collapsed="true">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAAAAAAAs=</HashCode>
+      <FileName>C:\code\keenan2022fall_gam575\instructor\lectures\Week_09\w9(7) - ChickenBot - TimerController\Manager\include\ListBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DLinkMan">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="~DLinkMan" Hidden="true" />
+      <Method Name="DLinkMan" Hidden="true" />
+      <Method Name="GetIterator" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAABAAAAAAAAAAAAAAAABgAAAAAABAACAAAAAAAAAAs=</HashCode>
+      <FileName>C:\code\keenan2022fall_gam575\instructor\lectures\Week_09\w9(7) - ChickenBot - TimerController\Manager\include\DLinkMan.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DLink">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAgAAAAIAAQAAAAABAAIBBBAA=</HashCode>
+      <FileName>C:\code\keenan2022fall_gam575\instructor\lectures\Week_09\w9(7) - ChickenBot - TimerController\Manager\include\DLink.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProtoBuff", "..\..\ProtoBuff\ProtoBuff.vcxitems", "{978E63F0-9D27-4D47-880B-75C826B3032A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyGLTF", "..\..\TinyGLTF\TinyGLTF.vcxitems", "{33B43508-F211-4ECF-8984-0B26689A6EBA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Converter", "src\Converter.vcxproj", "{ED602E5D-031C-4AF8-B6A6-4B34E0073B27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math", "..\..\Math_3.0\Math.vcxproj", "{D999076E-F08B-48FC-B732-E43E13041A07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "File", "..\..\File\File.vcxproj", "{F98902EE-6F29-479B-9A05-B2ED999A06D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shaders", "..\Shaders\Shaders.vcxitems", "{791D978A-3E57-40AF-85F8-61D3DA9D462B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proto", "..\Proto\src\Proto.vcxproj", "{C8ECC252-DFB8-4B7D-A234-CB07C5D1569B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PugiXml", "..\..\PugiXml\PugiXml.vcxproj", "{74DB043F-DBD5-40B5-AE5F-843035B2AD84}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\TinyGLTF\TinyGLTF.vcxitems*{33b43508-f211-4ecf-8984-0b26689a6eba}*SharedItemsImports = 9
+		..\Shaders\Shaders.vcxitems*{791d978a-3e57-40af-85f8-61d3da9d462b}*SharedItemsImports = 9
+		..\..\ProtoBuff\ProtoBuff.vcxitems*{978e63f0-9d27-4d47-880b-75c826b3032a}*SharedItemsImports = 9
+		..\..\ProtoBuff\ProtoBuff.vcxitems*{c8ecc252-dfb8-4b7d-a234-cb07c5d1569b}*SharedItemsImports = 4
+		..\..\ProtoBuff\ProtoBuff.vcxitems*{ed602e5d-031c-4af8-b6a6-4b34e0073b27}*SharedItemsImports = 4
+		..\Shaders\Shaders.vcxitems*{ed602e5d-031c-4af8-b6a6-4b34e0073b27}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED602E5D-031C-4AF8-B6A6-4B34E0073B27}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED602E5D-031C-4AF8-B6A6-4B34E0073B27}.Debug|x86.Build.0 = Debug|Win32
+		{D999076E-F08B-48FC-B732-E43E13041A07}.Debug|x86.ActiveCfg = Debug|Win32
+		{D999076E-F08B-48FC-B732-E43E13041A07}.Debug|x86.Build.0 = Debug|Win32
+		{F98902EE-6F29-479B-9A05-B2ED999A06D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{F98902EE-6F29-479B-9A05-B2ED999A06D6}.Debug|x86.Build.0 = Debug|Win32
+		{C8ECC252-DFB8-4B7D-A234-CB07C5D1569B}.Debug|x86.ActiveCfg = Debug|Win32
+		{C8ECC252-DFB8-4B7D-A234-CB07C5D1569B}.Debug|x86.Build.0 = Debug|Win32
+		{74DB043F-DBD5-40B5-AE5F-843035B2AD84}.Debug|x86.ActiveCfg = Debug|Win32
+		{74DB043F-DBD5-40B5-AE5F-843035B2AD84}.Debug|x86.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F904E58-7466-4ADD-86F2-CDA47824689D}
+	EndGlobalSection
+EndGlobal

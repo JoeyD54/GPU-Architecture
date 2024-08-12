@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul::meshData">
+    <Position X="0.75" Y="0.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Azul::meshData::RENDER_MODE">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\keenan2023winter_gam576\instructor\Lecture\Week_04\w4(11) - Prototype\_Version_2.0_\Proto\include\meshData.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAAABAIBAQACAAACEAAADACBAIAIAACBgAAAECAA=</HashCode>
+      <FileName>C:\code\keenan2023winter_gam576\instructor\Lecture\Week_04\w4(11) - Prototype\_Version_2.0_\Proto\include\meshData.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="vbo_color" />
+      <Field Name="vbo_index" />
+      <Field Name="vbo_norm" />
+      <Field Name="vbo_uv" />
+      <Field Name="vbo_vert" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul::vboData">
+    <Position X="4.25" Y="0.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Azul::vboData::VBO_TARGET" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\keenan2023winter_gam576\instructor\Lecture\Week_04\w4(11) - Prototype\_Version_2.0_\Proto\include\vboData.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Azul::vboData::VBO_COMPONENT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\keenan2023winter_gam576\instructor\Lecture\Week_04\w4(11) - Prototype\_Version_2.0_\Proto\include\vboData.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Azul::vboData::VBO_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\code\keenan2023winter_gam576\instructor\Lecture\Week_04\w4(11) - Prototype\_Version_2.0_\Proto\include\vboData.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAQIAAAQAABBCAAAAAACBQEAAAAQAgAAAEAAA=</HashCode>
+      <FileName>C:\code\keenan2023winter_gam576\instructor\Lecture\Week_04\w4(11) - Prototype\_Version_2.0_\Proto\include\vboData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

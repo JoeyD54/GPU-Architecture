@@ -1,0 +1,18 @@
+//----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+import "FrameBucketEntry.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message ClipData_proto
+{
+	optional uint32                       numKeyFrames = 1;
+	optional uint32                           numBones = 2;
+	repeated FrameBucketEntry_proto poFrameBucketEntry = 3;
+}
+
+// -- End of File ---

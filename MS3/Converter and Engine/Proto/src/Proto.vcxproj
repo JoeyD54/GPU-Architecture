@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Framework\Framework.h" />
+    <ClInclude Include="..\..\..\Framework\ProjectSettings.h" />
+    <ClInclude Include="..\..\..\Framework\ThreadFramework.h" />
+    <ClInclude Include="..\include\BoneEntry.h" />
+    <ClInclude Include="..\include\ClipData.h" />
+    <ClInclude Include="..\include\meshData.h" />
+    <ClInclude Include="..\include\QuatData.h" />
+    <ClInclude Include="..\include\FrameBucketEntry.h" />
+    <ClInclude Include="..\include\SkelData.h" />
+    <ClInclude Include="..\include\SkelEntry.h" />
+    <ClInclude Include="..\include\textureData.h" />
+    <ClInclude Include="..\include\vboData.h" />
+    <ClInclude Include="..\include\Vec3Data.h" />
+    <ClInclude Include="ClipData.pb.h" />
+    <ClInclude Include="InvBindData.h" />
+    <ClInclude Include="JointData.h" />
+    <ClInclude Include="HierarchyData.h" />
+    <ClInclude Include="FontData.h" />
+    <ClInclude Include="InvBindData.pb.h" />
+    <ClInclude Include="JointData.pb.h" />
+    <ClInclude Include="HierarchyData.pb.h" />
+    <ClInclude Include="FontData.pb.h" />
+    <ClInclude Include="FontEntry.h" />
+    <ClInclude Include="FontEntry.pb.h" />
+    <ClInclude Include="meshData.pb.h" />
+    <ClInclude Include="BoneEntry.pb.h" />
+    <ClInclude Include="FrameBucketEntry.pb.h" />
+    <ClInclude Include="SkelData.pb.h" />
+    <ClInclude Include="SkelEntry.pb.h" />
+    <ClInclude Include="textureData.pb.h" />
+    <ClInclude Include="vboData.pb.h" />
+    <ClInclude Include="QuatData.pb.h" />
+    <ClInclude Include="Vec3Data.pb.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Framework\__DO NOT MODIFY__" />
+    <None Include="Clip_Diagram.cd" />
+    <None Include="ClipData.proto" />
+    <None Include="InvBindData.proto" />
+    <None Include="JointData.proto" />
+    <None Include="HierarchyData.proto" />
+    <None Include="FontData.proto" />
+    <None Include="FontEntry.proto" />
+    <None Include="Mesh_Diagram.cd" />
+    <None Include="meshData.proto" />
+    <None Include="BoneEntry.proto" />
+    <None Include="FrameBucketEntry.proto" />
+    <None Include="SkelData.proto" />
+    <None Include="SkelEntry.proto" />
+    <None Include="Skeleton_Diagram.cd" />
+    <None Include="textureData.proto" />
+    <None Include="vboData.proto" />
+    <None Include="QuatData.proto" />
+    <None Include="Vec3Data.proto" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClipData.cpp" />
+    <ClCompile Include="ClipData.pb.cc" />
+    <ClCompile Include="InvBindData.cpp" />
+    <ClCompile Include="JointData.cpp" />
+    <ClCompile Include="HierarchyData.cpp" />
+    <ClCompile Include="FontData.cpp" />
+    <ClCompile Include="InvBindData.pb.cc" />
+    <ClCompile Include="JointData.pb.cc" />
+    <ClCompile Include="HierarchyData.pb.cc" />
+    <ClCompile Include="FontData.pb.cc" />
+    <ClCompile Include="FontEntry.cpp" />
+    <ClCompile Include="FontEntry.pb.cc" />
+    <ClCompile Include="meshData.cpp" />
+    <ClCompile Include="meshData.pb.cc" />
+    <ClCompile Include="BoneEntry.cpp" />
+    <ClCompile Include="BoneEntry.pb.cc" />
+    <ClCompile Include="FrameBucketEntry.cpp" />
+    <ClCompile Include="SkelData.cpp" />
+    <ClCompile Include="FrameBucketEntry.pb.cc" />
+    <ClCompile Include="SkelData.pb.cc" />
+    <ClCompile Include="SkelEntry.cpp" />
+    <ClCompile Include="SkelEntry.pb.cc" />
+    <ClCompile Include="textureData.cpp" />
+    <ClCompile Include="textureData.pb.cc" />
+    <ClCompile Include="vboData.cpp" />
+    <ClCompile Include="vboData.pb.cc" />
+    <ClCompile Include="QuatData.cpp" />
+    <ClCompile Include="Vec3Data.cpp" />
+    <ClCompile Include="QuatData.pb.cc" />
+    <ClCompile Include="Vec3Data.pb.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Math_3.0\Math.vcxproj">
+      <Project>{d999076e-f08b-48fc-b732-e43e13041a07}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{C8ECC252-DFB8-4B7D-A234-CB07C5D1569B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PA3</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Proto</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+    <Import Project="..\..\..\ProtoBuff\ProtoBuff.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)_X86Debug</TargetName>
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)_X86Release</TargetName>
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;BOILER;WINDOWS_TARGET_PLATFORM="$(TargetPlatformVersion)";SOLUTION_DIR=R"($(SolutionDir))";TOOLS_VERSION=R"($(VCToolsVersion))";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4365</DisableSpecificWarnings>
+      <StringPooling>false</StringPooling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <UseUnicodeForAssemblerListing>
+      </UseUnicodeForAssemblerListing>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Framework;$(SolutionDir)..\..\ProtoBuff;$(SolutionDir)JSON;$(SolutionDir)src;$(SolutionDir)include;$(ProjectDir)..\src;$(ProjectDir)..\include;$(ProjectDir)..\..\..\Math_3.0\include</AdditionalIncludeDirectories>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>Framework.h</ForcedIncludeFiles>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName).lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>"$(SolutionDir)..\..\ProtoBuff\libs\debug\protoc.exe" --cpp_out=. *.proto</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_GLFW_WIN32;_GLFW_USE_CONFIG_H;BOOSTER;WINDOWS_TARGET_PLATFORM="$(TargetPlatformVersion)";SOLUTION_DIR=R"($(SolutionDir))";TOOLS_VERSION=R"($(VCToolsVersion))";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4365</DisableSpecificWarnings>
+      <StringPooling>false</StringPooling>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\Framework;$(SolutionDir)..\..\ProtoBuff;$(SolutionDir)JSON;$(SolutionDir)src;$(SolutionDir)include;$(ProjectDir)..\src;$(ProjectDir)..\include;$(ProjectDir)..\..\..\Math_3.0\include</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>Framework.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName).lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

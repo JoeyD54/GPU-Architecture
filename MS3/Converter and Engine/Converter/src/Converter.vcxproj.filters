@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Framework">
+      <UniqueIdentifier>{f04c9286-e219-4fb7-b306-f9717e9aba86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libs">
+      <UniqueIdentifier>{d856f8fb-7ded-4e48-b700-d750751ea3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libs\_TinyGLTF">
+      <UniqueIdentifier>{b08bed67-5f13-4095-b4e5-c1739f6bb48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\GLTF">
+      <UniqueIdentifier>{d9de101c-836a-4e0b-a5aa-78eeeb0b9533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Models">
+      <UniqueIdentifier>{37c81a8e-e3cf-437d-91b7-2bda3f637e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skeleton">
+      <UniqueIdentifier>{ca69e979-45c0-4982-a334-a6d2b0d22e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Anim">
+      <UniqueIdentifier>{94fe0ce2-8d9b-4ace-b893-f0f4751ea6d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libs\Proto">
+      <UniqueIdentifier>{b41f23b4-8298-4fce-8a3f-286c6b351cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Converter">
+      <UniqueIdentifier>{adf955c1-53b8-4c37-abfd-abae7b736d76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLTF.cpp">
+      <Filter>src\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="meshDataConverter.cpp">
+      <Filter>src\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="textureDataConverter.cpp">
+      <Filter>src\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="vboDataConverter.cpp">
+      <Filter>src\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMesh.cpp">
+      <Filter>src\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereMesh.cpp">
+      <Filter>src\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="StringThis.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="PyramidMesh.cpp">
+      <Filter>src\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ChickenBot.cpp">
+      <Filter>src\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>src\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Anim.cpp">
+      <Filter>src\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertModel.cpp">
+      <Filter>src\Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertAnim.cpp">
+      <Filter>src\Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertSkeleton.cpp">
+      <Filter>src\Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertedDataCopy.cpp">
+      <Filter>src\Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertXML.cpp">
+      <Filter>src\Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertTexture.cpp">
+      <Filter>src\Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertSkin.cpp">
+      <Filter>src\Converter</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertHierarchy.cpp">
+      <Filter>src\Converter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Framework\__DO NOT MODIFY__">
+      <Filter>_Framework</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLTF.h">
+      <Filter>src\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="meshDataConverter.h">
+      <Filter>src\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="textureDataConverter.h">
+      <Filter>src\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="vboDataConverter.h">
+      <Filter>src\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMesh.h">
+      <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereMesh.h">
+      <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="StringThis.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="PyramidMesh.h">
+      <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ChickenBot.h">
+      <Filter>src\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>src\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Anim.h">
+      <Filter>src\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Framework\Framework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Framework\ProjectSettings.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Framework\ThreadFramework.h">
+      <Filter>_Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertModel.h">
+      <Filter>src\Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertAnim.h">
+      <Filter>src\Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertSkeleton.h">
+      <Filter>src\Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertedDataCopy.h">
+      <Filter>src\Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertXML.h">
+      <Filter>src\Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="ConverTtexture.h">
+      <Filter>src\Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertSkin.h">
+      <Filter>src\Converter</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertHierarchy.h">
+      <Filter>src\Converter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\TinyGLTF\libs\tinygltf.lib">
+      <Filter>_libs\_TinyGLTF</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

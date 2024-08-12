@@ -1,0 +1,17 @@
+//----------------------------------------------------------------------------
+// Copyright 2023, Ed Keenan, all rights reserved.
+//----------------------------------------------------------------------------
+
+syntax = "proto3";
+
+import "SkelEntry.proto";
+
+option optimize_for = LITE_RUNTIME;
+
+message SkelData_proto
+{
+	optional uint32             numBones = 1;
+	repeated SkelEntry_proto poSkelEntry = 2;
+}
+
+// -- End of File ---
